@@ -160,3 +160,18 @@ body {
 .boxes-wrap .buttons .destroy-btn:active {
   background-color: #b50303;
 }
+
+.gallery {
+  display: flex;
+  width: 1180px;
+  margin: 0 auto;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 360px;
+  height: 300px;
+  margin-top: 40px;
+}
