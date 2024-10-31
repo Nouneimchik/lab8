@@ -11,4 +11,152 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  font-size: 16px;
+}
+
+.back a{
+  text-decoration: none;
+  background-color: #005cf1;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  padding: 6px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.back a:hover {
+  background-color: #f80505;
+  border-color: #f80505;
+}
+
+#categories .item {
+  overflow: hidden;
+  background-color: #F6F6FE;
+  color: #2E2F42;
+  padding: 16px 16px;
+  list-style: none;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+#categories .item h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+#categories .item ul {
+  padding: 0;
+}
+
+#categories .item ul li {
+  list-style: none;
+  border: #808080 solid 1px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+#name-input {
+  border-color: #808080;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: #2E2F42;
+  font-size: 16px;
+}
+#output {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.login-form label input{
+  display: block;
+  flex-direction: column;
+  padding: 8px 5px;
+  width: 360px;
+  margin: 5px 0;
+  border: #808080 solid 1px;
+  border-radius: 4px;
+}
+
+.login-form button {
+  background-color: #4E75FF;
+  color: #fff;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 8px;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #1b39a8;
+}
+
+.widget .widget-text {
+  text-align: center;
+  font-size: 170%;
+  margin-top: 20%;
+}
+
+.widget button {
+  display: block;
+  margin: 0 auto;
+  font-size: 170%;
+  border: 0;
+  border-radius: 8px;
+  background-color: #4E75FF;
+  color: #fff;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.widget button:hover {
+  background-color: #1b39a8;
+}
+
+.boxes-wrap .buttons, .boxes-wrap .boxes {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F6F6FE;
+  border: 0;
+  border-radius: 8px;
+  width: 500px;
+  padding: 32px;
+  margin: 20px auto;
+}
+
+.boxes-wrap .buttons input {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border: #808080 solid 1px;
+  border-radius: 8px;
+}
+
+.boxes-wrap .buttons button {
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+}
+
+.boxes-wrap .buttons .create-btn {
+  background-color: #4E75FF;
+  transition: background-color 0.3s ease;
+}
+
+.boxes-wrap .buttons .destroy-btn {
+  background-color: #FF4E4E;
+  transition: background-color 0.3s ease;
+}
+
+.boxes-wrap .buttons .create-btn:active {
+  background-color: #1b39a8;
+}
+
+.boxes-wrap .buttons .destroy-btn:active {
+  background-color: #b50303;
 }
